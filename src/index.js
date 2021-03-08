@@ -1,5 +1,3 @@
-let array = [];
-let arr = [];
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
@@ -10,6 +8,6 @@ module.exports = function towelSort (matrix) {
       matrix[i].reverse();
     }
   }
-  return arr.flat();
+  return matrix.flat();
 }
 
