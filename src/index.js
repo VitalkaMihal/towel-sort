@@ -10,6 +10,6 @@ module.exports = function towelSort (matrix) {
       matrix[i].reverse();
     }
   }
-  return arr;
+  return arr.flat();
 }
 
