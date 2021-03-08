@@ -6,12 +6,10 @@ module.exports = function towelSort (matrix) {
   if (matrix === undefined){
     return [];
   } else {
-         array = matrix.flat();
-     for (let i = 0; i < array.length ; i++){
-       if (array[i] > 0){
-         arr.push(array[i]);
-       }
-     }
-     return arr;
+    for (let i = 1; i < matrix.length; i += 2){
+      matrix[i].reverse();
+    }
   }
+  return arr;
 }
+
