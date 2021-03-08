@@ -5,7 +5,7 @@ module.exports = function towelSort (matrix) {
   if (matrix === undefined){
     return [];
   } else {
-     array = matrix.flat();
+     array = matrix;
      return array.sort((a, b) => a - b);
   }
 }
